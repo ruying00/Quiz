@@ -71,6 +71,7 @@
     <Content Include="Quiz20210504.aspx" />
     <Content Include="Quiz20210511.aspx" />
     <Content Include="Quiz20210511_1.aspx" />
+    <Content Include="Quiz20210518.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="Quiz20210511_1.aspx.designer.cs">
       <DependentUpon>Quiz20210511_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz20210518.aspx.cs">
+      <DependentUpon>Quiz20210518.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quiz20210518.aspx.designer.cs">
+      <DependentUpon>Quiz20210518.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
